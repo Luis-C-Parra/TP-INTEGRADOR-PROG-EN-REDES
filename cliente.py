@@ -25,7 +25,7 @@ def lanzar_cliente():
         return print(f"[ERROR] No se pudo conectar: {e}")
 
     # Pantalla de login, nada del otro mundo
-    system("cls" if sys.platform.startswith("win") else "clear")
+    system("cls" if sys.platform.startswith("win") else "clear") #hace que la pantalla este limpia
     print("=== AUTENTICACIÓN - CHAT ===")
     usuario = input("Usuario: ").strip()
     password = input("Contraseña: ").strip()
